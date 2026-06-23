@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg barra-navegacion">
+
+        <div class="container-fluid">
+
+            <!-- Logo   -->
+
+            <a class="navbar-brand p-0" href="index.html">
+                <img src="img/logo.png" alt="Logo DSW Inmobiliaria" class="logo-navbar">
+            </a>
+
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <!-- Buscador -->
+                <form class="d-flex buscador-navbar me-auto">
+
+                    <input class="form-control" type="search" placeholder="Buscar">
+
+                    <button type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+
+                </form>
+
+                <!-- Menú -->
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/propiedades.html">
+                            Propiedades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/servicios.html">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/blog.html">
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+
+        <section class="seccion-inicio seccion-principal">
+            <img src="img/inicio.png" class="fondo-seccion" alt="Fondo Inicio">
+
+            <div class="contenido-frente container">
+                <div class="tarjeta-inicio tarjeta-principal">
+                    <h2>ENCUENTRA TU PROPIEDAD</h2>
+                    <form class="buscador-inicio">
+                        <div class="buscador-contenedor">
+                            <input type="text" placeholder="Buscar propiedad...">
+                            <button type="submit"><i class="bi bi-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-inicio">
+            <img src="img/servicios.png" class="fondo-seccion" alt="Fondo Servicios">
+
+            <div class="contenido-frente container px-4 px-md-5">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <div class="tarjeta-inicio">
+                            <h3>¿Buscás asesoramiento?</h3>
+                            <p>Ofrecemos servicios de excelencia para acompañarte en cada paso.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-auto text-center">
+                        <a href="servicios.html" class="btn-inicio">Servicios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-inicio">
+            <img src="img/grupo.png" class="fondo-seccion" alt="Fondo Nosotros">
+
+            <div class="contenido-frente container px-4 px-md-5">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <div class="tarjeta-inicio">
+                            <h3>La transparencia primero.</h3>
+                            <p>Conocé al equipo de profesionales que va a acompañarte.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-auto text-center">
+                        <a href="secciones/nosotros.html" class="btn-inicio">Nosotros</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-inicio">
+            <img src="img/blog.png" class="fondo-seccion" alt="Fondo Blog">
+
+            <div class="contenido-frente container px-4 px-md-5">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                        <div class="tarjeta-inicio">
+                            <h3>Decidí con información.</h3>
+                            <p>Actualizate con las últimas novedades del mercado inmobiliario.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-auto text-center">
+                        <a href="secciones/blog.html" class="btn-inicio">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="container mt-5 mb-3">
+
+        <!-- Línea superior -->
+        <hr>
+
+        <div class="row align-items-center">
+
+            <!-- Copyright -->
+            <div class="col-lg-4 col-md-12 text-center text-lg-start mb-2 mb-lg-0">
+
+                <small>
+                    © 2026 DSW Inmobiliaria. Todos derechos reservados.
+                </small>
+
+            </div>
+
+            <!-- Enlaces -->
+            <div class="col-lg-5 col-md-12 text-center mb-2 mb-lg-0">
+
+                <a href="#" class="text-dark me-3 small">
+                    Política privacidad
+                </a>
+
+                <a href="#" class="text-dark me-3 small">
+                    Términos de servicio
+                </a>
+
+                <a href="#" class="text-dark small">
+                    Configuración cookies
+                </a>
+
+            </div>
+
+            <!-- Redes -->
+            <div class="col-lg-3 col-md-12 text-center text-lg-end">
+
+                <a href="#" class="text-dark me-2">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#" class="text-dark me-2">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#" class="text-dark me-2">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+
+                <a href="#" class="text-dark me-2">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="#" class="text-dark">
+                    <i class="bi bi-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1055;">
+        <div id="toastBuscador" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-dark text-white">
+                <i class="bi bi-info-circle me-2"></i>
+                <strong class="me-auto">Aviso del Sistema</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                    aria-label="Cerrar"></button>
+            </div>
+            <div class="toast-body bg-white text-dark">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

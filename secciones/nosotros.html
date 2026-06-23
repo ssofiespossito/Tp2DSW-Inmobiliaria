@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg barra-navegacion">
+        <div class="container-fluid">
+            <a class="navbar-brand p-0" href="../index.html">
+                <img src="../img/logo.png" alt="Logo DSW Inmobiliaria" class="logo-navbar">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <form class="d-flex buscador-navbar me-auto">
+                    <input class="form-control" type="search" placeholder="Buscar">
+                    <button type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="propiedades.html">Propiedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="seccion-nosotros">
+            <div class="container">
+                <p class="etiqueta-seccion">ACERCA DE NOSOTROS</p>
+                <h1>La diferencia está en el servicio.</h1>
+                <div class="nosotros-contenido">
+                    <div class="texto-nosotros">
+                        <p>Somos un equipo de profesionales dedicado a hacer tus inversiones inmobiliarias más
+                            fáciles, sencillas y eficaces, gracias a una alianza interdisciplinaria a través de
+                            la cual brindamos a nuestros clientes un servicio 360°.</p>
+                        <p>Cercanía, transparencia y responsabilidad son los 3 pilares sobre los que construimos
+                            25 años de experiencia en el mercado inmobiliario. Manejamos la última tecnología del
+                            rubro. Conocemos y revisamos leyes, códigos, reglamentos y procedimientos que afectan a
+                            cada una de las operaciones, para lograr nuestro objetivo número uno: satisfacer tus
+                            necesidades.</p>
+                        <p>Queremos revolucionar tus operaciones inmobiliarias. Nos encargamos de cada paso y de
+                            guiarte durante todo el proceso para que no solo sea rápido, sino que también lo hagas con
+                            confianza y tranquilidad.</p>
+                    </div>
+                    <div class="foto-contenedor">
+                        <img src="../img/grupo.png" alt="Equipo" class="foto-equipo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-equipo">
+            <div class="container">
+
+                <h2>Nuestro equipo:</h2>
+
+                <div class="integrante">
+                    <div class="foto-integrante-contenedor">
+                        <img src="../img/yesica.png" alt="Foto de Yesica Diez" class="foto-integrante">
+                    </div>
+                    <div class="contenido-integrante">
+                        <h3>Diez, Yesica</h3>
+                        <p>Estudiante TUTI, simpática y única. Cuenta con una vasta experiencia en las áreas de
+                            consultoría, valuaciones, brokerage.</p>
+                    </div>
+                </div>
+
+                <div class="integrante">
+                    <div class="foto-integrante-contenedor">
+                        <img src="../img/claudio.png" alt="Foto de Claudio Laborda" class="foto-integrante">
+                    </div>
+                    <div class="contenido-integrante">
+                        <h3>Laborda, Claudio</h3>
+                        <p>Estudiante TUTI, proactivo y cumplidor. Tiene amplia experiencia en la realización de
+                            transacciones en beneficio de clientes corporativos.</p>
+                    </div>
+                </div>
+
+                <div class="integrante">
+                    <div class="foto-integrante-contenedor">
+                        <img src="../img/cristian.png" alt="Foto de Cristian Nozralah" class="foto-integrante">
+                    </div>
+                    <div class="contenido-integrante">
+                        <h3>Nozralah, Cristian</h3>
+                        <p>Estudiante TUTI, confiable e íntegro. Representa a clientes en todo el país, tanto
+                            inquilinos como propietarios.</p>
+                    </div>
+                </div>
+
+                <div class="integrante">
+                    <div class="foto-integrante-contenedor">
+                        <img src="../img/sofia.png" alt="Foto de Sofia Espósito" class="foto-integrante">
+                    </div>
+                    <div class="contenido-integrante">
+                        <h3>Espósito, Sofia</h3>
+                        <p>Estudiante TUTI, transparente y dedicada. IT Manager especializado en modernizar
+                            aplicaciones de negocio.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="seccion-contacto">
+            <div class="contacto-header">
+                <div class="container">
+                    <h2>Solicitud de contacto</h2>
+                    <p>¿Querés saber más? ¡Contactanos!</p>
+                </div>
+            </div>
+            <div class="contacto-form">
+                <div class="container">
+                    <form id="formularioContacto">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Valor" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Valor" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Valor" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comentario" class="form-label">Comentario</label>
+                            <textarea class="form-control" id="comentario" placeholder="Valor" rows="4" ></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container mt-5 mb-3">
+        <hr>
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12 text-center text-lg-start mb-2 mb-lg-0">
+                <small>© 2026 DSW Inmobiliaria. Todos derechos reservados.</small>
+            </div>
+            <div class="col-lg-5 col-md-12 text-center mb-2 mb-lg-0">
+                <a href="#" class="text-dark me-3 small">Política privacidad</a>
+                <a href="#" class="text-dark me-3 small">Términos de servicio</a>
+                <a href="#" class="text-dark small">Configuración cookies</a>
+            </div>
+            <div class="col-lg-3 col-md-12 text-center text-lg-end">
+                <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-dark me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-dark"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
