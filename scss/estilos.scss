@@ -1,14 +1,14 @@
 $primary: #9db8d6;
-$body-font-family: Arial, sans-serif;
-$enable-rounded: true;
+$font-family-base: Arial, sans-serif;
+$border-radius: 8px;
 $btn-border-radius: 30px;
-
+$btn-border-radius-sm: 30px;
+$btn-border-radius-lg: 30px;
+$btn-padding-x: 1.5rem;
+$btn-padding-y: 0.6rem;
+$enable-rounded: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-body {
-  font-family: Arial, sans-serif;
-}
 
 .barra-navegacion {
   background-color: $primary;
@@ -66,7 +66,6 @@ body {
   &:last-child {
     margin-bottom: 0;
   }
-
 
   .fondo-seccion {
     position: absolute;
@@ -175,29 +174,6 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .logo-navbar {
-    width: 100px;
-    height: 100px;
-  }
-
-  .buscador-navbar {
-    width: 300px;
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .logo-navbar {
-    width: 120px;
-    height: 120px;
-  }
-
-  .buscador-navbar {
-    width: 450px;
-  }
-}
-
 .seccion-nosotros {
   padding: 30px 0;
 
@@ -228,7 +204,6 @@ body {
 
   p {
     color: #333;
-    //font-size: 14px;
     font-size: 1.2rem;
     line-height: 1.7;
     margin-bottom: 12px;
@@ -456,3 +431,16 @@ footer {
     width: 450px;
   }
 }
+
+//sección -servicios (Cristian) 
+
+.btn-personal{
+color: $primary;
+  
+}
+.img-fija{
+      width: 100% !important;
+      height: 200px !important;
+      object-fit: cover !important;
+}
+
