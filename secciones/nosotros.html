@@ -48,14 +48,23 @@
                         <p>Somos un equipo de profesionales dedicado a hacer tus inversiones inmobiliarias más
                             fáciles, sencillas y eficaces, gracias a una alianza interdisciplinaria a través de
                             la cual brindamos a nuestros clientes un servicio 360°.</p>
-                        <p>Cercanía, transparencia y responsabilidad son los 3 pilares sobre los que construimos
-                            25 años de experiencia en el mercado inmobiliario. Manejamos la última tecnología del
-                            rubro. Conocemos y revisamos leyes, códigos, reglamentos y procedimientos que afectan a
-                            cada una de las operaciones, para lograr nuestro objetivo número uno: satisfacer tus
-                            necesidades.</p>
-                        <p>Queremos revolucionar tus operaciones inmobiliarias. Nos encargamos de cada paso y de
-                            guiarte durante todo el proceso para que no solo sea rápido, sino que también lo hagas con
-                            confianza y tranquilidad.</p>
+
+                        <div class="collapse" id="masTexto">
+                            <p>Cercanía, transparencia y responsabilidad son los 3 pilares sobre los que construimos
+                                25 años de experiencia en el mercado inmobiliario. Manejamos la última tecnología del
+                                rubro. Conocemos y revisamos leyes, códigos, reglamentos y procedimientos que afectan a
+                                cada una de las operaciones, para lograr nuestro objetivo número uno: satisfacer tus
+                                necesidades.</p>
+                            <p>Queremos revolucionar tus operaciones inmobiliarias. Nos encargamos de cada paso y de
+                                guiarte durante todo el proceso para que no solo sea rápido, sino que también lo hagas
+                                con
+                                confianza y tranquilidad.</p>
+                        </div>
+
+                        <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#masTexto">
+                            Ver más
+                        </button>
                     </div>
                     <div class="foto-contenedor">
                         <img src="../img/grupo.png" alt="Equipo" class="foto-equipo">
@@ -128,7 +137,7 @@
                     <form id="formularioContacto">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" >
+                            <input type="text" class="form-control" id="nombre">
                         </div>
                         <div class="mb-3">
                             <label for="apellido" class="form-label">Apellido</label>
@@ -140,7 +149,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="comentario" class="form-label">Comentario</label>
-                            <textarea class="form-control" id="comentario"  rows="4" ></textarea>
+                            <textarea class="form-control" id="comentario" rows="4"></textarea>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary">Enviar</button>
@@ -164,11 +173,21 @@
                 <a href="#" class="text-dark small">Configuración cookies</a>
             </div>
             <div class="col-lg-3 col-md-12 text-center text-lg-end">
-                <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-dark me-2"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="text-dark me-2"><i class="bi bi-twitter-x"></i></a>
-                <a href="#" class="text-dark me-2"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="text-dark"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="text-dark me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="text-dark me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="text-dark me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter / X">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="#" class="text-dark me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" class="text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="YouTube">
+                    <i class="bi bi-youtube"></i>
+                </a>
             </div>
         </div>
     </footer>
