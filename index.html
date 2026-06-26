@@ -4,77 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-
-    <!-- CSS -->
+    <title>Inicio - DSW Inmobiliaria</title>
+    <meta name="title" content="Inicio - DSW Inmobiliaria">
+    <meta name="description"
+        content="DSW Inmobiliaria, encontrá tu propiedad ideal con el respaldo de un equipo profesional con 25 años de experiencia.">
     <link rel="stylesheet" href="css/estilos.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg barra-navegacion">
-
         <div class="container-fluid">
-
-            <!-- Logo   -->
-
-            <a class="navbar-brand p-0" href="index.html">
-                <img src="img/logo.png" alt="Logo DSW Inmobiliaria" class="logo-navbar">
+            <a class="navbar-brand p-0" href="index.html" title="Ir a Inicio - DSW Inmobiliaria">
+                <img src="img/logo-dsw-inmobiliaria.png" alt="Logo DSW Inmobiliaria" title="Logo DSW Inmobiliaria" class="logo-navbar">
             </a>
-
-            <!-- Botón hamburguesa -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-label="Abrir menú de navegación">
                 <span class="navbar-toggler-icon"></span>
-
             </button>
-
             <div class="collapse navbar-collapse" id="menuPrincipal">
-
-                <!-- Buscador -->
                 <form class="d-flex buscador-navbar me-auto">
-
                     <input class="form-control" type="search" placeholder="Buscar">
-
-                    <button type="submit">
+                    <button type="submit" aria-label="Buscar propiedades">
                         <i class="bi bi-search"></i>
                     </button>
-
                 </form>
-
-                <!-- Menú -->
                 <ul class="navbar-nav mx-auto">
-
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            Inicio
-                        </a>
+                        <a class="nav-link active" href="index.html" title="Ir a Inicio">Inicio</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="secciones/propiedades.html">
-                            Propiedades
-                        </a>
+                        <a class="nav-link" href="secciones/propiedades.html"
+                            title="Ver propiedades disponibles">Propiedades</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="secciones/servicios.html">
-                            Servicios
-                        </a>
+                        <a class="nav-link" href="secciones/servicios.html" title="Ver nuestros servicios">Servicios</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="secciones/nosotros.html">
-                            Nosotros
-                        </a>
+                        <a class="nav-link" href="secciones/nosotros.html" title="Conocé nuestro equipo">Nosotros</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="secciones/blog.html">
-                            Blog
-                        </a>
+                        <a class="nav-link" href="secciones/blog.html"
+                            title="Ver novedades del mercado inmobiliario">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -84,15 +56,15 @@
     <main class="container mt-4">
 
         <section class="seccion-inicio seccion-principal">
-            <img src="img/inicio.png" class="fondo-seccion" alt="Fondo Inicio">
-
+            <img src="img/inicio.png" class="fondo-seccion" alt="Portada DSW Inmobiliaria"
+                title="Portada DSW Inmobiliaria">
             <div class="contenido-frente container">
                 <div class="tarjeta-inicio tarjeta-principal">
-                    <h2>ENCUENTRA TU PROPIEDAD</h2>
+                    <h1>ENCUENTRA TU PROPIEDAD</h1>
                     <form class="buscador-inicio">
                         <div class="buscador-contenedor">
                             <input type="text" placeholder="Buscar propiedad...">
-                            <button type="submit"><i class="bi bi-search"></i></button>
+                            <button type="submit" aria-label="Buscar propiedad"><i class="bi bi-search"></i></button>
                         </div>
                     </form>
                 </div>
@@ -100,54 +72,56 @@
         </section>
 
         <section class="seccion-inicio">
-            <img src="img/servicios.png" class="fondo-seccion" alt="Fondo Servicios">
-
+            <img src="img/servicios.png" class="fondo-seccion" alt="Servicios inmobiliarios DSW"
+                title="Servicios inmobiliarios DSW">
             <div class="contenido-frente container px-4 px-md-5">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-12 col-md-6 mb-4 mb-md-0">
                         <div class="tarjeta-inicio">
-                            <h3>¿Buscás asesoramiento?</h3>
+                            <h2>¿Buscás asesoramiento?</h2>
                             <p>Ofrecemos servicios de excelencia para acompañarte en cada paso.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-auto text-center">
-                        <a href="secciones/servicios.html" class="btn-inicio">Servicios</a>
+                        <a href="secciones/servicios.html" class="btn-inicio"
+                            title="Ver todos los servicios de DSW Inmobiliaria">Servicios</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="seccion-inicio">
-            <img src="img/grupo.png" class="fondo-seccion" alt="Fondo Nosotros">
-
+            <img src="img/nosotros-foto-equipo.jpg" class="fondo-seccion" alt="Equipo DSW Inmobiliaria"
+                title="Equipo DSW Inmobiliaria">
             <div class="contenido-frente container px-4 px-md-5">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-12 col-md-6 mb-4 mb-md-0">
                         <div class="tarjeta-inicio">
-                            <h3>La transparencia primero.</h3>
+                            <h2>La transparencia primero.</h2>
                             <p>Conocé al equipo de profesionales que va a acompañarte.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-auto text-center">
-                        <a href="secciones/nosotros.html" class="btn-inicio">Nosotros</a>
+                        <a href="secciones/nosotros.html" class="btn-inicio"
+                            title="Conocé al equipo de DSW Inmobiliaria">Nosotros</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="seccion-inicio">
-            <img src="img/blog.png" class="fondo-seccion" alt="Fondo Blog">
-
+            <img src="img/blog.png" class="fondo-seccion" alt="Blog inmobiliario DSW" title="Blog inmobiliario DSW">
             <div class="contenido-frente container px-4 px-md-5">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-12 col-md-6 mb-4 mb-md-0">
                         <div class="tarjeta-inicio">
-                            <h3>Decidí con información.</h3>
+                            <h2>Decidí con información.</h2>
                             <p>Actualizate con las últimas novedades del mercado inmobiliario.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-auto text-center">
-                        <a href="secciones/blog.html" class="btn-inicio">Blog</a>
+                        <a href="secciones/blog.html" class="btn-inicio"
+                            title="Ver el blog de DSW Inmobiliaria">Blog</a>
                     </div>
                 </div>
             </div>
@@ -155,67 +129,33 @@
 
     </main>
 
-    <!-- FOOTER -->
     <footer class="container mt-5 mb-3">
-
-        <!-- Línea superior -->
         <hr>
-
         <div class="row align-items-center">
-
-            <!-- Copyright -->
             <div class="col-lg-4 col-md-12 text-center text-lg-start mb-2 mb-lg-0">
-
-                <small>
-                    © 2026 DSW Inmobiliaria. Todos derechos reservados.
-                </small>
-
+                <small>© 2026 DSW Inmobiliaria. Todos derechos reservados.</small>
             </div>
-
-            <!-- Enlaces -->
             <div class="col-lg-5 col-md-12 text-center mb-2 mb-lg-0">
-
-                <a href="#" class="text-dark me-3 small">
-                    Política privacidad
-                </a>
-
-                <a href="#" class="text-dark me-3 small">
-                    Términos de servicio
-                </a>
-
-                <a href="#" class="text-dark small">
-                    Configuración cookies
-                </a>
-
+                <a href="#" class="text-dark me-3 small" title="Política de privacidad de DSW Inmobiliaria">Política
+                    privacidad</a>
+                <a href="#" class="text-dark me-3 small" title="Términos de servicio de DSW Inmobiliaria">Términos de
+                    servicio</a>
+                <a href="#" class="text-dark small" title="Configuración de cookies de DSW Inmobiliaria">Configuración
+                    cookies</a>
             </div>
-
-            <!-- Redes -->
             <div class="col-lg-3 col-md-12 text-center text-lg-end">
-
-                <a href="#" class="text-dark me-2">
-                    <i class="bi bi-facebook"></i>
-                </a>
-
-                <a href="#" class="text-dark me-2">
-                    <i class="bi bi-instagram"></i>
-                </a>
-
-                <a href="#" class="text-dark me-2">
-                    <i class="bi bi-twitter-x"></i>
-                </a>
-
-                <a href="#" class="text-dark me-2">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-
-                <a href="#" class="text-dark">
-                    <i class="bi bi-youtube"></i>
-                </a>
-
+                <a href="#" class="text-dark me-2" title="Facebook" aria-label="Seguinos en Facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark me-2" title="Instagram" aria-label="Seguinos en Instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="#" class="text-dark me-2" title="Twitter / X" aria-label="Seguinos en Twitter / X"><i
+                        class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-dark me-2" title="LinkedIn" aria-label="Seguinos en LinkedIn"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-dark" title="YouTube" aria-label="Seguinos en YouTube"><i
+                        class="bi bi-youtube"></i></a>
             </div>
-
         </div>
-
     </footer>
 
     <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1055;">
