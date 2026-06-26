@@ -1,8 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // -----------------------------
+    // Inicialización de Tooltips
+    // -----------------------------
     const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     tooltips.forEach(el => new bootstrap.Tooltip(el));
 
+    // -----------------------------
+    // Formulario de Contacto
+    // -----------------------------
     const formularioContacto = document.querySelector('#formularioContacto');
 
     if (formularioContacto) {
@@ -36,7 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-
+    // -----------------------------
+    // Buscador del Navbar
+    // -----------------------------
     const formBuscadorNavbar = document.querySelector('.buscador-navbar');
 
     if (formBuscadorNavbar) {
@@ -52,7 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-
+    // -----------------------------
+    // Buscadores  (Toast)
+    // -----------------------------
     const formBuscadorInicio = document.querySelector('.buscador-inicio');
     const toastElement = document.getElementById('toastBuscador');
 
@@ -68,16 +78,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (terminoBusqueda === '') {
                 toastBody.textContent = 'Por favor, ingresá una zona o propiedad para buscar.';
+                toastInstancia.show();
             } else {
-                toastBody.textContent = `Buscando propiedades coincidentes con: "${terminoBusqueda}"...`;
-                inputBuscador.value = '';
+                window.location.href = `secciones/Propiedades.html?busqueda=${encodeURIComponent(terminoBusqueda)}`;
             }
-
-            toastInstancia.show();
         });
     }
 
-
+    // -----------------------------
+    // Efecto Scroll en la Navbar
+    // -----------------------------
     const navbar = document.querySelector('.barra-navegacion');
 
     if (navbar) {
@@ -87,6 +97,16 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 navbar.classList.remove('shadow');
             }
+        });
+    }
+
+    // -----------------------------
+    // Botón Ver todo (Blog)
+    // -----------------------------
+    const boton = document.querySelector(".boton-ver-todo-blog");
+    if (boton) {
+        boton.addEventListener("click", () => {
+            alert("Próximamente se mostrarán más artículos.");
         });
     }
 

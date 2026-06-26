@@ -17,7 +17,8 @@
     <nav class="navbar navbar-expand-lg barra-navegacion">
         <div class="container-fluid">
             <a class="navbar-brand p-0" href="index.html" title="Ir a Inicio - DSW Inmobiliaria">
-                <img src="img/logo-dsw-inmobiliaria.png" alt="Logo DSW Inmobiliaria" title="Logo DSW Inmobiliaria" class="logo-navbar">
+                <img src="img/logo-dsw-inmobiliaria.png" alt="Logo DSW Inmobiliaria" title="Logo DSW Inmobiliaria"
+                    class="logo-navbar">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
                 aria-label="Abrir menú de navegación">
@@ -56,18 +57,56 @@
     <main class="container mt-4">
 
         <section class="seccion-inicio seccion-principal">
-            <img src="img/inicio.png" class="fondo-seccion" alt="Portada DSW Inmobiliaria"
-                title="Portada DSW Inmobiliaria">
-            <div class="contenido-frente container">
-                <div class="tarjeta-inicio tarjeta-principal">
-                    <h1>ENCUENTRA TU PROPIEDAD</h1>
-                    <form class="buscador-inicio">
-                        <div class="buscador-contenedor">
-                            <input type="text" placeholder="Buscar propiedad...">
-                            <button type="submit" aria-label="Buscar propiedad"><i class="bi bi-search"></i></button>
-                        </div>
-                    </form>
+            <div id="carouselInicio" class="carousel slide carousel-fade w-100 position-relative"
+                data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/inicio.png" class="d-block w-100" style="height: 500px; object-fit: cover;"
+                            alt="Portada DSW Inmobiliaria" title="Portada DSW Inmobiliaria">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Gemini_Generated-convertido-de-png.webp" class="d-block w-100"
+                            style="height: 500px; object-fit: cover;" alt="Propiedad moderna DSW Inmobiliaria"
+                            title="Propiedad moderna DSW Inmobiliaria">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Imagen generada_ Casa moderna al atardecer (2)-convertido-de-png.webp"
+                            class="d-block w-100" style="height: 500px; object-fit: cover;"
+                            alt="Casa moderna al atardecer DSW Inmobiliaria"
+                            title="Casa moderna al atardecer DSW Inmobiliaria">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Imagen generada_ Casa moderna y elegante al anochecer-convertido-de-png.webp"
+                            class="d-block w-100" style="height: 500px; object-fit: cover;"
+                            alt="Casa elegante al anochecer DSW Inmobiliaria"
+                            title="Casa elegante al anochecer DSW Inmobiliaria">
+                    </div>
                 </div>
+
+                <div class="contenido-frente container position-absolute start-50 translate-middle-x"
+                    style="bottom: 15%; z-index: 10;">
+                    <div class="tarjeta-inicio tarjeta-principal mx-auto" style="max-width: 500px; padding: 20px;">
+                        <h1 class="fs-4 mb-3">ENCUENTRA TU PROPIEDAD</h1>
+                        <form class="buscador-inicio">
+                            <div class="buscador-contenedor">
+                                <input type="text" placeholder="Buscar propiedad...">
+                                <button type="submit" aria-label="Buscar propiedad"><i
+                                        class="bi bi-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio"
+                    data-bs-slide="prev" style="z-index: 20;" aria-label="Imagen anterior">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio"
+                    data-bs-slide="next" style="z-index: 20;" aria-label="Imagen siguiente">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
             </div>
         </section>
 
