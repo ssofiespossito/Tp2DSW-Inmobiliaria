@@ -1,6 +1,6 @@
 $primary: #9db8d6;
-$font-family-base: Arial, sans-serif;
-$border-radius: 8px;
+$body-font-family: Arial, sans-serif;
+$enable-rounded: true;
 $btn-border-radius: 30px;
 $btn-border-radius-sm: 30px;
 $btn-border-radius-lg: 30px;
@@ -8,9 +8,8 @@ $btn-padding-x: 1.5rem;
 $btn-padding-y: 0.6rem;
 $enable-rounded: true;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
 
-.barra-navegacion {
+@import "../node_modules/bootstrap/scss/bootstrap";.barra-navegacion {
   background-color: $primary;
   border-radius: 25px;
   padding: 10px 25px;
@@ -436,8 +435,19 @@ footer {
   color: $primary;
 }
 
-.img-fija {
-  width: 100% !important;
-  height: 200px !important;
-  object-fit: cover !important;
+
+
+.btn-personal{
+color: $primary;
+  
+}
+.img-fija{
+      width: 100% !important;
+      height: 200px !important;
+      object-fit: cover !important;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
 }
