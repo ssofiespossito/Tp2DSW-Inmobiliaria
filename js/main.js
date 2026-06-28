@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+<<<<<<< HEAD
     // -----------------------------
     // Botón Ver todo (Blog)
     // -----------------------------
@@ -111,3 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+=======
+});
+
+
+
+>>>>>>> bec35b9 (actualizacion de dsw cristian)
